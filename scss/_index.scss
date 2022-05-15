@@ -1,0 +1,11 @@
+.main{
+    background-color: green;
+    width: 80%;
+    margin: 0 auto;
+    #{&}__text{
+        color: white;
+        &:hover{
+            color: red;
+        }
+    }
+}
